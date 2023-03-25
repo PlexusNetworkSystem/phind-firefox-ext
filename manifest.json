@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Phind.com Search Engine",
+  "version": "1.3",
+  "description" : "Sets Firefox's default search engine to Phind.com",
+  "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "phind.com",
+      "keyword": "phind",
+      "search_url": "https://phind.com/search?q={searchTerms}&source=searchbox",
+      "favicon_url": "https://you.com/favicon/favicon.ico",
+      "encoding": "UTF-8",
+      "is_default": true 
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://localhost/*", "*://phind.com/*", "*://*.phind.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
