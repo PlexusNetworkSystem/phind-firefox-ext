@@ -14,3 +14,5 @@ To build the extension from this source code, please follow these steps:
 3. Go to **about:debugging** in the Firefox address bar. Click **This Firefox** on the left nagivation bar.
 4. Click **Load Temporay Add-on**
 5. Find and select the extension that Phind just built with web-ext
+------------ 
+Developed by [Abra](https://github.com/the-abra "Abra")
