@@ -4,7 +4,7 @@ This Firefox extension sets Phind.com as Phindr Firefox homepage and default sea
 
 **Download**
 
-Phind can download the official extension at https://addons.mozilla.org/en-US/firefox/addon/Phind-com/
+Phind can download the official extension at https://addons.mozilla.org/en-US/firefox/addon/phind-com-search-engine/
 
 **Building Instructions:**
 
