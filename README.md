@@ -1,6 +1,6 @@
 # Phind Firefox Extension
 
-This Firefox extension sets Phind.com as Phindr Firefox homepage and default search engine.
+This Firefox extension sets Phind.com as Phind Firefox homepage and default search engine.
 
 **Download**
 
